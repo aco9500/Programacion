@@ -13,11 +13,11 @@ import java.util.Scanner;
 public class Ex8 {
     public static void main(String[] args) {
         //variable
-        int nota;
+        double nota;
         Scanner in = new Scanner(System.in);
         //programa
         System.out.print("Entra la teva qualificacio: ");
-        nota=in.nextInt();
+        nota=in.nextDouble();
         System.out.println("La teva qualificacio es " +nota);
          if (nota >= 0 && nota <= 10) {
             if (nota < 3) {

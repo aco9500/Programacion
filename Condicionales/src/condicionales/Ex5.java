@@ -21,12 +21,12 @@ public class Ex5 {
         System.out.print("Introduir el numero: ");
         num2 = in.nextDouble();
         if (num1>num2) {
-            System.out.printf("La forma ascendet es %.2f - %.2f\n",num2,num1);
+            System.out.printf("La forma ascendet es %d - %d\n",num2,num1);
         } else {
             if (num1==num2) {
                 System.out.println("No es pot ordenar perque son el mateix numero");
             } else { 
-                System.out.printf("La forma ascendet es %.2f - %.2f\n",num1,num2);
+                System.out.printf("La forma ascendet es %d - %d\n",num1,num2);
             }
         }
     }
