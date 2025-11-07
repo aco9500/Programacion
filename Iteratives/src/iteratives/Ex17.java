@@ -25,7 +25,7 @@ public class Ex17 {
                 max=num;
             }
             m
-                    
+                  
                     
                     edia+=num;
             contador++;
