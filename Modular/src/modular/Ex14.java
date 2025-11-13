@@ -18,8 +18,8 @@ public class Ex14 {
         catet1=in.nextDouble();
         System.out.print("Introdueix el segon catet: ");
         catet2=in.nextDouble();
-        hipotenusa(catet1,catet2);
-        System.out.printf("La hipotenusa de %.2f i %.2f es : %.2f\n",catet1,catet2,hipotenusa(catet1,catet2));
+        double h=hipotenusa(catet1,catet2);
+        System.out.printf("La hipotenusa de %.2f i %.2f es : %.2f\n",catet1,catet2,h);
     }
 
     private static double hipotenusa(double x, double y) {
